@@ -2,7 +2,23 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);}
+    int contador = 1;
+
+     while (contador <= 5){
+        System.out.println("vuelta numero"+ contador);
+        contador++;                      //sin esto el bucle se vuelve infinito//
+         } 
+    }
+        /*for (int fila = 1; fila <= 4; fila++) {
+    for (int col = 1; col <= fila; col++) {
+        System.out.print("* ");
+    }
+    System.out.println(); }
+        
+}
+
+
         /*
         int a= 10, b= 3;
         System.out.println(a+b);
@@ -188,7 +204,7 @@ if (promedio >= 90){
 
 // mayor de edad//
 
-System.out.println("Ingresa tu edad: ");
+/*System.out.println("Ingresa tu edad: ");
         int edad = sc.nextInt();
 
 if (edad >= 18){
@@ -199,4 +215,27 @@ if (edad >= 18){
 
         sc.close();
     }
+}*/
+
+
+
+        
+
+       /* System.out.print("¿De qué número quieres la tabla? ");
+        int numero = sc.nextInt();
+
+        System.out.println("\nTabla del " + numero + ":");
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(numero + " x " + i + " = " + (numero * i));
+        }
+
+        sc.close();
+    }*/
+   
 }
+
+
+
+
+
+
